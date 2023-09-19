@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
-const UserCard = ({ name, email, photo_url }) => {
-    // console.log(name);
+const UserCard = ({ id, name, email, photo_url }) => {
     return (
-        <Link>
+        <Link to={`users/${id}`}>
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -14,7 +15,8 @@ const UserCard = ({ name, email, photo_url }) => {
 
                 {/* user image */}
                 <div className="w-24 h-24 flex items-center justify-center border border-violet-500 dark:border-sky-500 rounded-full">
-                    <img
+                    <LazyLoadImage
+                        effect="blur"
                         src={photo_url}
                         alt="user profile picture"
                         className="w-20 h-20 rounded-full object-cover" />
@@ -26,9 +28,11 @@ const UserCard = ({ name, email, photo_url }) => {
                         {name}
                     </h2>
 
-                    {/* user eamil */}
+                    {/* user email */}
                     <span className="text-slate-500 dark:text-slate-400 font-semibold flex items-center gap-2">
-                        <Mail size={16} strokeWidth={2} />
+                        <div className="w-8 h-8 grid place-items-center rounded-md bg-purple-500/10 dark:bg-sky-500/10 text-purple-500 dark:text-sky-500">
+                            <Mail size={16} />
+                        </div>
                         <p>{email}</p>
                     </span>
                 </div>

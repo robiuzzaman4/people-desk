@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "name": "John Doe",
-      "email": "johndoe@gmail.com",
+      "name": "Devid kane",
+      "email": "devid@gmail.com",
       "photo_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80",
       "title": "Software Engineer",
       "phone": "+1 (123) 456-7890",
@@ -26,7 +26,7 @@
       "city": "Anothercity",
       "country": "Canada",
       "zip_code": "54321",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1990-03-25",
       "blood_group": "B-",
       "age": 31
@@ -58,7 +58,7 @@
       "city": "Anothercity",
       "country": "Canada",
       "zip_code": "43210",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1988-08-20",
       "blood_group": "AB+",
       "age": 33
@@ -90,7 +90,7 @@
       "city": "Anytown",
       "country": "USA",
       "zip_code": "34567",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1987-11-12",
       "blood_group": "B+",
       "age": 34
@@ -154,7 +154,7 @@
       "city": "Someville",
       "country": "USA",
       "zip_code": "76543",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1986-06-30",
       "blood_group": "B-",
       "age": 35
@@ -186,7 +186,7 @@
       "city": "Anytown",
       "country": "USA",
       "zip_code": "12345",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1990-01-22",
       "blood_group": "A-",
       "age": 31
@@ -218,7 +218,7 @@
       "city": "Anothercity",
       "country": "Canada",
       "zip_code": "98765",
-      "gender": "Female",
+      "gender": "Male",
       "birth_of_date": "1989-09-08",
       "blood_group": "O-",
       "age": 32

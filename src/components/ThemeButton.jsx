@@ -26,8 +26,8 @@ const ThemeButton = () => {
             className="w-8 h-8 grid place-items-center">
             {
                 darkMode
-                    ? <Sun strokeWidth={1.5} size={16} className="text-yellow-400"/>
-                    : <MoonStar strokeWidth={1.5} size={16} className="text-slate-500"/>
+                    ? <Sun strokeWidth={2} size={16} className="text-yellow-400"/>
+                    : <MoonStar strokeWidth={2} size={16} className="text-slate-500"/>
             }
         </button>
     );
