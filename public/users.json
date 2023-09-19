@@ -7,12 +7,12 @@
       "title": "Software Engineer",
       "phone": "+1 (123) 456-7890",
       "address": "123 Main Street",
-      "city": "Anytown",
+      "city": "California",
       "country": "USA",
       "zip_code": "12345",
       "gender": "Male",
       "birth_of_date": "1985-07-15",
-      "blood_group": "A+",
+      "blood_group": "A+ (Positive)",
       "age": 36
     },
     {
@@ -23,12 +23,12 @@
       "title": "UX Designer",
       "phone": "+1 (987) 654-3210",
       "address": "456 Elm Avenue",
-      "city": "Anothercity",
+      "city": "Manitoba",
       "country": "Canada",
       "zip_code": "54321",
       "gender": "Male",
       "birth_of_date": "1990-03-25",
-      "blood_group": "B-",
+      "blood_group": "B- (Negative)",
       "age": 31
     },
     {
@@ -39,12 +39,12 @@
       "title": "Data Scientist",
       "phone": "+1 (555) 123-4567",
       "address": "789 Oak Street",
-      "city": "Sometown",
+      "city": "Georgia",
       "country": "USA",
       "zip_code": "56789",
       "gender": "Male",
       "birth_of_date": "1992-12-10",
-      "blood_group": "O+",
+      "blood_group": "O+ (Positive)",
       "age": 29
     },
     {
@@ -55,12 +55,12 @@
       "title": "Graphic Designer",
       "phone": "+1 (555) 987-6543",
       "address": "567 Willow Lane",
-      "city": "Anothercity",
+      "city": "Nova Scotia",
       "country": "Canada",
       "zip_code": "43210",
       "gender": "Male",
       "birth_of_date": "1988-08-20",
-      "blood_group": "AB+",
+      "blood_group": "AB+ (Positive)",
       "age": 33
     },
     {
@@ -71,12 +71,12 @@
       "title": "Product Manager",
       "phone": "+1 (555) 789-0123",
       "address": "987 Birch Road",
-      "city": "Someville",
+      "city": "Oregon",
       "country": "USA",
       "zip_code": "67890",
       "gender": "Male",
       "birth_of_date": "1980-05-05",
-      "blood_group": "A-",
+      "blood_group": "A- (Negative)",
       "age": 41
     },
     {
@@ -87,12 +87,12 @@
       "title": "UI Developer",
       "phone": "+1 (555) 234-5678",
       "address": "345 Cedar Street",
-      "city": "Anytown",
+      "city": "Alaska",
       "country": "USA",
       "zip_code": "34567",
       "gender": "Male",
       "birth_of_date": "1987-11-12",
-      "blood_group": "B+",
+      "blood_group": "B+ (Positive)",
       "age": 34
     },
     {
@@ -103,12 +103,12 @@
       "title": "Marketing Manager",
       "phone": "+1 (555) 876-5432",
       "address": "234 Pine Avenue",
-      "city": "Sometown",
+      "city": "Arizona",
       "country": "USA",
       "zip_code": "45678",
       "gender": "Male",
       "birth_of_date": "1991-04-18",
-      "blood_group": "AB-",
+      "blood_group": "AB- (Negative)",
       "age": 30
     },
     {
@@ -119,12 +119,12 @@
       "title": "Front-end Developer",
       "phone": "+1 (555) 321-9876",
       "address": "876 Maple Drive",
-      "city": "Anothercity",
+      "city": "New Brunswick",
       "country": "Canada",
       "zip_code": "98765",
       "gender": "Male",
       "birth_of_date": "1989-09-08",
-      "blood_group": "O-",
+      "blood_group": "O- (Negative)",
       "age": 32
     },
     {
@@ -135,12 +135,12 @@
       "title": "Data Analyst",
       "phone": "+1 (555) 654-3210",
       "address": "654 Elm Avenue",
-      "city": "Anytown",
+      "city": "New York",
       "country": "USA",
       "zip_code": "23456",
       "gender": "Male",
       "birth_of_date": "1993-02-28",
-      "blood_group": "A+",
+      "blood_group": "A+ (Positive)",
       "age": 28
     },
     {
@@ -151,12 +151,12 @@
       "title": "UX Researcher",
       "phone": "+1 (555) 789-6543",
       "address": "789 Oak Street",
-      "city": "Someville",
+      "city": "Florida",
       "country": "USA",
       "zip_code": "76543",
       "gender": "Male",
       "birth_of_date": "1986-06-30",
-      "blood_group": "B-",
+      "blood_group": "B- (Negative)",
       "age": 35
     },
     {
@@ -167,12 +167,12 @@
       "title": "Full-stack Developer",
       "phone": "+1 (555) 876-1234",
       "address": "123 Birch Road",
-      "city": "Anothercity",
+      "city": "Nunavut",
       "country": "Canada",
       "zip_code": "87654",
       "gender": "Male",
       "birth_of_date": "1984-03-14",
-      "blood_group": "O+",
+      "blood_group": "O+ (Positive)",
       "age": 37
     },
     {
@@ -183,12 +183,12 @@
       "title": "Product Designer",
       "phone": "+1 (555) 234-5678",
       "address": "456 Cedar Street",
-      "city": "Anytown",
+      "city": "Colorado",
       "country": "USA",
       "zip_code": "12345",
       "gender": "Male",
       "birth_of_date": "1990-01-22",
-      "blood_group": "A-",
+      "blood_group": "A- (Negative)",
       "age": 31
     },
     {
@@ -199,12 +199,12 @@
       "title": "Accountant",
       "phone": "+1 (555) 234-5678",
       "address": "234 Pine Avenue",
-      "city": "Sometown",
+      "city": "Texas",
       "country": "USA",
       "zip_code": "23456",
       "gender": "Male",
       "birth_of_date": "1991-04-18",
-      "blood_group": "AB-",
+      "blood_group": "AB- (Negative)",
       "age": 30
     },
     {
@@ -215,12 +215,12 @@
       "title": "HR Manager",
       "phone": "+1 (555) 234-5678",
       "address": "876 Maple Drive",
-      "city": "Anothercity",
+      "city": "Alberta",
       "country": "Canada",
       "zip_code": "98765",
       "gender": "Male",
       "birth_of_date": "1989-09-08",
-      "blood_group": "O-",
+      "blood_group": "O- (Negative)",
       "age": 32
     },
     {
@@ -231,12 +231,12 @@
       "title": "Software Developer",
       "phone": "+1 (555) 654-3210",
       "address": "654 Elm Avenue",
-      "city": "Anytown",
+      "city": "Louisiana",
       "country": "USA",
       "zip_code": "23456",
       "gender": "Male",
       "birth_of_date": "1993-02-28",
-      "blood_group": "A+",
+      "blood_group": "A+ (Positive)",
       "age": 28
     }
   ]

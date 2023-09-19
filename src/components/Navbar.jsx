@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 w-full bg-white/50 dark:bg-slate-900/50 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 z-10">
+        <nav className="fixed top-0 w-full bg-white/50 dark:bg-slate-900/50 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 z-50">
             <Container className="py-6 flex items-center justify-between gap-4">
                 {/* brand */}
                 <Link to="/" className="flex items-center gap-2">
@@ -14,6 +14,8 @@ const Navbar = () => {
                     </div>
                     <h3 className="font-semibold">People Desk</h3>
                 </Link>
+
+                {/* navlink and theme button */}
                 <div className="flex items-center">
                     <NavLink
                         to="/"

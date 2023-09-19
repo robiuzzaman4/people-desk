@@ -8,8 +8,12 @@ import { CalendarClock, CalendarDays, Compass, Droplets, Globe2, GraduationCap, 
 import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import useScroll from "../hook/useScroll";
 
 const UserDetails = () => {
+    // stop default scroll behavior on dynamic route
+    useScroll(location.pathname);
+
     const dispatch = useDispatch();
     const { data: users, loading } = useSelector((state) => state.usersSlice);
 
@@ -18,7 +22,6 @@ const UserDetails = () => {
     }, [dispatch]);
 
     const { id } = useParams();
-
     const user = users.find((currentUser) => currentUser.id === parseInt(id));
 
     // Convert the input date to a JavaScript Date object
@@ -54,10 +57,10 @@ const UserDetails = () => {
                     transition={{ duration: 0.5 }}
                     className="h-auto">
                     <div
-                        className="relative w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-8 flex flex-col items-center gap-4 overflow-hidden group">
+                        className="relative w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-lg p-8 flex flex-col items-center gap-4 overflow-hidden group">
 
                         {/* user image */}
-                        <div className="w-24 h-24 flex items-center justify-center border border-violet-500 dark:border-sky-500 rounded-full">
+                        <div className="w-24 h-24 flex items-center justify-center border-2 border-violet-500 dark:border-sky-500 rounded-full">
                             <LazyLoadImage
                             effect="blur"
                                 src={user?.photo_url}
@@ -91,7 +94,7 @@ const UserDetails = () => {
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className="lg:col-span-2 relative w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-8 grid lg:grid-cols-2 gap-8 overflow-hidden group">
+                    className="lg:col-span-2 relative w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-lg p-8 grid lg:grid-cols-2 gap-8 overflow-hidden group">
                     {/* user title */}
                     <span className="text-slate-500 dark:text-slate-400 font-semibold flex items-center gap-2 bg-slate-100 dark:bg-slate-900/50 w-full h-auto rounded-md p-4 relative">
 

@@ -7,7 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "dark-pattern": "url('/hero_pattern_dark.svg')",
+      },
+    },
   },
   plugins: [],
 }

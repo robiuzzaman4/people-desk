@@ -11,10 +11,10 @@ const UserCard = ({ id, name, email, photo_url }) => {
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="relative w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-8 flex flex-col items-center gap-4 overflow-hidden group">
+                className="relative w-full bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-lg p-8 flex flex-col items-center gap-4 overflow-hidden group">
 
                 {/* user image */}
-                <div className="w-24 h-24 flex items-center justify-center border border-violet-500 dark:border-sky-500 rounded-full">
+                <div className="w-24 h-24 flex items-center justify-center border-2 border-violet-500 dark:border-sky-500 rounded-full">
                     <LazyLoadImage
                         effect="blur"
                         src={photo_url}
