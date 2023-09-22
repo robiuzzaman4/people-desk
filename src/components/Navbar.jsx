@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 w-full bg-white/50 dark:bg-slate-900/50 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 z-50">
+        <nav className="fixed top-0 w-full bg-white/50 dark:bg-slate-950/50 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 z-50">
             <Container className="py-6 flex items-center justify-between gap-4">
                 {/* brand */}
                 <Link to="/" className="flex items-center gap-2">
@@ -21,7 +21,7 @@ const Navbar = () => {
                         to="/"
                         className={({ isActive }) =>
                             isActive
-                                ? "text-violet-500 dark:text-sky-500"
+                                ? "text-violet-500 dark:text-violet-500"
                                 : "text-slate-500 dark:text-slate-400"
                         }
                     >
